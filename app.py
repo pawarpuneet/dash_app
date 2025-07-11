@@ -1,6 +1,7 @@
 # Import required libraries
 import pandas as pd
 import dash
+from dash import Dash
 import dash_html_components as html
 import dash_core_components as dcc
 from dash.dependencies import Input, Output
@@ -12,7 +13,7 @@ max_payload = spacex_df['Payload Mass (kg)'].max()
 min_payload = spacex_df['Payload Mass (kg)'].min()
 
 # Create a dash application
-app = dash.Dash(__name__)
+app = Dash(__name__)
 server = app.server
 
 app.title = "SpaceX Launch Records Dashboard"
