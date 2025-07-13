@@ -1,2 +1,2 @@
 # dash_app
-[App is live here](https://flat-cell-6481.ploomber.app/)
+[App is live here](https://square-tooth-1618.ploomber.app/)
